@@ -1,0 +1,13 @@
+h1{
+     background: palevioletred;
+     /* text-align: center; */
+     width: 500px;
+     text-align: center;
+     padding-right:10px ;
+}
+a{
+     display: inline-block;
+     width: 500px;
+     background: lightcoral;
+     text-align: center;
+}

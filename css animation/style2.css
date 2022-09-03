@@ -1,0 +1,15 @@
+.box{
+     width: 100px;
+     height: 100px;
+     background: lightpink;
+     transition-property: background;
+     transition-duration: 2s;
+     transition-timing-function: ease-in-out;
+     transition-property: width 1s ease-in-out;
+     transition-property: height 2s ease-in-out;
+}
+.box:hover{
+     background: tomato;
+     width: 200px;
+     height: 250px;
+}

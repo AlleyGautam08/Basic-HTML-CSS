@@ -1,0 +1,29 @@
+/* link,visited,hover,active
+a:link{
+     color: green;
+}
+a:visited{
+     color: red;
+}
+a:hover{
+     color: blue;
+}
+a:active{
+     color: black;
+}
+
+p:hover{
+     color: pink;
+}
+p:active{
+    background: lemonchiffon;
+}*/
+
+input:focus{
+     padding: 20px;
+     outline: navy;
+     border: 2px solid greenyellow;
+}
+input:required{
+     color: palevioletred;
+}

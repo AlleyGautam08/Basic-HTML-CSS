@@ -1,0 +1,38 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+.box-wrapper{
+     border: 10px solid black;
+     display: flex;
+     max-width: 1200px; 
+     
+}
+.box{
+     /*flex-basis: 600px;*/
+     flex: 1 1;
+}    
+.box-1{
+     background: lightb 400pxlue;
+     flex: 1 2 400px;
+    /* flex-grow:2 ;
+    flex-shrink: 1;*/
+}
+.box-2{
+     background:lightcoral;
+     flex: 1 2 500px;
+    /*flex-shrink: 2;*/
+}
+.box-3{
+     background:lightgray ;
+     flex: 1 2 600px;
+     /*flex-grow: 1;
+     flex-shrink: 3;*/
+}
+.box-4{
+     background: lightsalmon;
+    
+}
+.box-5{
+    background: lightslategrey;
+   
+}
